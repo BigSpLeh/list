@@ -1,0 +1,57 @@
+body{
+    background-image: url("19141420_605.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  text-align: center;  
+}
+h1{
+     color: rgb(50, 189, 12);
+     text-align: center;
+     text-shadow: 0 0 10px white;
+     font-family: 'Rubik Glitch', cursive;
+     font-weight: normal;
+}
+img{
+    box-shadow:0 0 40px rgba(0, 0, 0, 0.427);
+    border-radius: 100px;
+}
+ul{
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    margin: auto;
+    /* чтобы точки были внутри списка */
+    list-style-position: inside ;
+    border-radius: 100px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.427);
+    margin-top: 25px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+ol{
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    margin: auto;
+    border-radius: 100px;
+    list-style-position: inside;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#GraphicsCard{
+    color: gold;
+}
+#Processor{
+    color: silver;
+}
+#HardDrive{
+    color: rgb(255, 177, 75);
+}
+.gold{
+    color: gold;
+}
